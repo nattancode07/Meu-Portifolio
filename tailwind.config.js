@@ -22,6 +22,13 @@ module.exports = {
       },
       gridTemplateColumns: {
         'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
+      },
+      theme: {
+        extend: {
+          backgroundImage: {
+            'footer-bg': "url('/footer-bg-color.png')",
+          }
+        }
       }
     },
   },
