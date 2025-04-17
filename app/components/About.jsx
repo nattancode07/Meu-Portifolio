@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { assets, infoList, toolsData } from '@/assets/assets'
 import { motion } from "motion/react"
+
 const About = ({isDarkMode, setDarkMode}) => {
   return (
     <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20'
@@ -13,12 +14,12 @@ const About = ({isDarkMode, setDarkMode}) => {
       initial={{opacity: 0, y: -20}}
       whileInView={{opacity: 1, y: 0}}
       transition={{duration: 0.5, delay: 0.3}} 
-      className='text-center mb-2 text-lg font-Ovo'>Introduction</motion.h4>
+      className='text-center mb-2 text-lg font-Ovo'>Introdução</motion.h4>
       <motion.h2 
       initial={{opacity: 0, y: -20}}
       whileInView={{opacity: 1, y: 0}}
       transition={{duration: 0.5, delay: 0.5}} 
-      className='text-center text-5xl font-Ovo'>About me</motion.h2>
+      className='text-center text-5xl font-Ovo'>Sobre mim</motion.h2>
 
       <motion.div
       initial={{opacity: 0}}
@@ -37,7 +38,7 @@ const About = ({isDarkMode, setDarkMode}) => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.8}} 
         className='flex-1'>
-          <p className='mb-10 max-w-2xl font-Ovo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, recusandae rerum. Modi aut sequi, vitae mollitia beatae nisi ipsum aliquam dignissimos autem ea nostrum voluptatum fugit veritatis tempore, non cumque?</p>
+          <p className='mb-10 max-w-2xl font-Ovo'>Tenho 20 anos de idade e atualmente estudo Análise e desenvolvimento de Sistemas no 5º período da UNIFAVIP. Sou uma pessoa organizada, amigável e focada em resolver problemas.</p>
 
           <motion.ul 
           initial={{opacity: 0}}
@@ -59,7 +60,7 @@ const About = ({isDarkMode, setDarkMode}) => {
           initial={{y: 20, opacity: 0}}
           whileInView={{y: 0, opacity: 1 }}
           transition={{delay: 1.3, duration: 0.5 }} 
-          className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
+          className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Ferramentas que eu uso:</motion.h4>
 
           <motion.ul 
           initial={{opacity: 0}}

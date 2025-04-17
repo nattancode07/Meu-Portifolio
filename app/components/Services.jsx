@@ -14,12 +14,12 @@ const Services = () => {
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{delay: 0.3, duration: 0.5 }}
-      className='text-center mb-2 text-lg font-Ovo'>What I offer</motion.h4>
+      className='text-center mb-2 text-lg font-Ovo'>Oque eu ofereço</motion.h4>
       <motion.h2 
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{delay: 0.5, duration: 0.5 }}
-      className='text-center text-5xl font-Ovo'>My services</motion.h2>
+      className='text-center text-5xl font-Ovo'>Meus Serviços</motion.h2>
       <motion.p
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}

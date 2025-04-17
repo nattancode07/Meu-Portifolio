@@ -6,6 +6,10 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import react from './react-96.png';
+import nodejs from './nodejs-100.png';
+import javascript from './javascript-100.png';
+import mysql from './mysql-96.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -46,6 +50,10 @@ export const assets = {
     project_icon_dark,
     vscode,
     firebase,
+    nodejs,
+    react,
+    javascript,
+    mysql,
     figma,
     git,
     mongodb,
@@ -107,11 +115,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: '5º período de Análise e Desenvolvimento de Sistemas' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.javascript, assets.nodejs, assets.react, assets.git, assets.mysql
 ];
