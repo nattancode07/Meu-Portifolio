@@ -24,7 +24,7 @@ const Services = () => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{delay: 0.7, duration: 0.5 }} 
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I am a fullstack developer from Pernambuco, BR with 1 year of experience in some companies.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Sou um estudante e desenvolvedor full-stack no inicio da carreira</motion.p>
     
     <motion.div 
     initial={{opacity: 0}}
@@ -41,9 +41,9 @@ const Services = () => {
           <p className='text-sm text-gray-600 leading-5 dark;text-white/80'>
             {description}
           </p>
-          <a href={link} className='flex items-center gap-2 text-sm mt-5'>
+          {/*<a href={link} className='flex items-center gap-2 text-sm mt-5'>
             Read more <Image alt='' src={assets.right_arrow} className='w-4'/>
-          </a>
+          </a>*/}
         </motion.div>
       ))}
     </motion.div>
