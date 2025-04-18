@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lightHover: '#fcf4ff',
-        darkHover: '#2a004a',
-        darkTheme: '#11001F'
+        lightHover: '#F2F0F4',
+        darkHover: '#2A272C',
+        darkTheme: '#0A090C'
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
