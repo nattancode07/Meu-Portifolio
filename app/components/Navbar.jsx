@@ -66,11 +66,11 @@ const Navbar = ({isDarkMode, setDarkMode}) => {
             <Image src={isDarkMode ? assets.close_white : assets.close_black} alt='' className='w-s cursor-pointer'></Image>
           </div>
 
-          <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
-          <li><a className='font-Ovo' onClick={closeMenu} href="#about">About me</a></li>
-          <li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>
-          <li><a className='font-Ovo' onClick={closeMenu} href="#work">My Work</a></li>
-          <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact me</a></li>
+          <li><a className='font-Ovo' onClick={closeMenu} href="#top">Inicio</a></li>
+          <li><a className='font-Ovo' onClick={closeMenu} href="#about">Sobre mim</a></li>
+          <li><a className='font-Ovo' onClick={closeMenu} href="#services">Meus Serviços</a></li>
+          <li><a className='font-Ovo' onClick={closeMenu} href="#work">Meus projetos</a></li>
+          <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Me contate</a></li>
         </ul>
 
       </nav>
