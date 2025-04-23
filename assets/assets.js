@@ -86,25 +86,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Clone Youtube',
+        description: 'Html, CSS, flexBox',
+        bgImage: '/work-5.png',
+        url: 'https://github.com/nattancode07/youtube-project',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Jogo da velha',
+        description: 'JavaScript, React (Rooks)',
+        bgImage: '/work-6.png',
+        url: 'https://github.com/nattancode07/Tic-tac-toe-Jogo-da-velha',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Princípios do React',
+        description: 'JavaScript, React',
+        bgImage: '/work-7.png',
+        url: 'https://github.com/nattancode07/React-Essentials'
     },
-    {
+    /*{
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
-    },
+    },*/
 ]
 
 export const serviceData = [
@@ -115,7 +118,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'Já atuei com HTML, CSS, JavaScript, TypeScript, PHP, ReactJs, NextJs, NodeJs. E sou aberto para trabalhar com outras linguagens.' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'Já atuei com HTML, CSS, JavaScript, TypeScript, PHP, ReactJs, NextJs, Ângular, NodeJs. E sou aberto para trabalhar com outras linguagens.' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Ensino médio completo e atualmente no 5º período de Análise e Desenvolvimento de Sistemas da faculdade Unifavip' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experiência', description: 'Tenho 8 meses de experiência, passei por 2 estágios dês do suporte ao cliente até o desenvolvimento de software' }
 ];
