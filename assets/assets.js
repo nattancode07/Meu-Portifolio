@@ -115,9 +115,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: '5º período de Análise e Desenvolvimento de Sistemas' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projetos', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Linguagens', description: 'Já atuei com HTML, CSS, JavaScript, TypeScript, PHP, ReactJs, NextJs, NodeJs. E sou aberto para trabalhar com outras linguagens.' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Educação', description: 'Ensino médio completo e atualmente no 5º período de Análise e Desenvolvimento de Sistemas da faculdade Unifavip' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experiência', description: 'Tenho 8 meses de experiência, passei por 2 estágios dês do suporte ao cliente até o desenvolvimento de software' }
 ];
 
 export const toolsData = [
